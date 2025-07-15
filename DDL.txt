@@ -1,5 +1,5 @@
-﻿CREATE SCHEMA IMS_Broma;
-Set search_path to IMS_Broma ;
+﻿CREATE SCHEMA IMS;
+Set search_path to IMS ;
 CREATE TABLE Supplier (
     SupplierID VARCHAR(10) PRIMARY KEY,
     Sname VARCHAR(10) UNIQUE NOT NULL,
